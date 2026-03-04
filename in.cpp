@@ -14,9 +14,9 @@ int main() {
         cin >> arr[i];
     }
 
-    // Insertion Sort
+    
     for(int i = 1; i < n; i++) {
-        int key = arr[i];      // current element
+        int key = arr[i];      
         int j = i - 1;
 
         // shift elements greater than key
@@ -25,7 +25,7 @@ int main() {
             j--;
         }
 
-        arr[j + 1] = key;      // insert at correct position
+        arr[j + 1] = key;      
     }
 
     cout << "Sorted array: ";
@@ -35,3 +35,4 @@ int main() {
 
     return 0;
 }
+
